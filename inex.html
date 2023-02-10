@@ -1,0 +1,60 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>MY PORTFOLIO</title>
+         <script src="https://cdn.tailwindcss.com"></script>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script>
+    tailwind.config={
+        theme:{
+            fontFamily:{
+                poppins:['poppins,"sans-sheriff']
+            }
+        }
+    }
+</script> 
+ <style type="text/tailwindcss">
+    @layer components{
+        .btn{
+            @apply px-2 py-2 rounded-md;
+        }
+    }
+
+ </style>      
+</head>
+        <body class="mx-40 font-poppins">
+            <nav class="flex flex-row justify-between my-8">
+                <div>
+                    <h1 class="text-2xl font-semibold">Rohith Lokesh</h1>
+                </div>
+                <div class="flex flex-row gap-5">
+                    <a>About Me</a>
+                    <a>Projects</a>
+                    <a>Contact Me</a>
+                </div>
+
+            </nav>
+
+            <main class="flex flex-row">
+                <div class="flex flex-col basis-2/3">
+                    <h1 class="font-bold text-5xl">HELLO!!I am Rohith Lokesh developer of this website</h1>  
+                    <p class="text-lg">all coding stuff and problems dealed and solved here</p>
+                    <div class="flex flex-row gap-5">
+                        <div>
+                        <button class="btn bg-blue-400  px-2 py-2">view linkedin</button>
+                        <button class="btn bg-green-200 px-2 py-2 text-white">VIEW insta</button>
+                              </div>
+            <div>
+                <img src="6.1.4.123_sharpenia_patient.jpg" class="w-72">
+            </div>    
+                    
+            
+            </main>
+            
+        </body>
+        </html>
